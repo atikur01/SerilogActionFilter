@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- NuGet package metadata -->
+		<PackageId>SerilogActionFilter</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Atik</Authors>
+		<Company>Atik Apps</Company>
+		<Description>SerilogActionFilter </Description>
+		<PackageTags>Serilog,ActionFilter </PackageTags>
+		<RepositoryUrl>https://github.com/atikur01/SerilogActionFilter</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/atikur01/SerilogActionFilter</PackageProjectUrl>
+		<PackageIconUrl>https://avatars.githubusercontent.com/u/5691010?v=4</PackageIconUrl>
+		<!-- Optional -->
+
+		<!-- Optional: Set the output directory for the NuGet package -->
+		<OutputPath>./nupkg/</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+	</ItemGroup>
+
+</Project>
